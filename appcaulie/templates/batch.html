@@ -1,0 +1,109 @@
+{% extends './layout.html' %}
+
+{% block title %}
+    CauliflowerDB-Batch
+{% endblock %}
+
+{% block content %}
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <form action="" method="post" class="needs-validation" novalidate>
+                {% csrf_token %}
+                <div class="form-floating">
+                    <textarea class="form-control" name="genes" placeholder="Leave a comment here" id="floatingTextarea2"
+                              style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Input a list of genes with a single comma as separator</label>
+                </div>
+                <div class="invalid-feedback">Invalid gene ID included</div>
+                <br>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="geneseq" checked disabled>
+                    <label class="form-check-label" for="inlineCheckbox1">Gene</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="mrnaseq">
+                    <label class="form-check-label" for="inlineCheckbox2">mRNA</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="cdsseq">
+                    <label class="form-check-label" for="inlineCheckbox3">CDS</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="proteinseq">
+                    <label class="form-check-label" for="inlineCheckbox3">Protein</label>
+                </div>
+                <br><br>
+                <button type="submit" class="btn btn-primary" id="sbbtn">Submit</button>
+                <button type="button" class="btn btn-outline-success" id="egbtn" value="BOB02G007100,BOB02G007110">Example</button>
+            </form>
+        </div>
+    </div>
+{% endblock %}
+
+{% block script %}
+    <script>
+        // 获取标签对象
+        const form = document.querySelector('form')
+        const genes = document.querySelector('textarea')
+        const egbtn = document.querySelector('#egbtn')
+
+        // 正则匹配模式
+        const gpattern = /^BOB0[1-9]G\d{6}(,BOB0[1-9]G\d{6})*$/
+
+        // 定义验证字段的函数
+        function verifyField(field, pattern) {
+            const fieldfeedback = field.parentElement.nextElementSibling
+            if (pattern.test(field.value)) {
+                fieldfeedback.style.display = 'none'
+                if (field.classList.contains('is-invalid')) field.classList.remove('is-invalid')
+                return true
+            } else {
+                fieldfeedback.style.display = 'block'
+                field.classList.add('is-invalid')
+                return false
+            }
+        }
+
+        // 验证字段，之后进行ajax请求
+        (function () {
+            genes.addEventListener('change', function () {verifyField(genes, gpattern)}, false)
+
+
+            form.addEventListener('submit', function (event) {
+                // 阻止表单自动提交
+                event.preventDefault()
+
+                const features = document.querySelectorAll('.form-check-input')
+                let flist = []
+                for (let i = 0; i < features.length; i++) {
+                    if (features[i].checked === true) flist.push(features[i].value)
+                }
+
+                if (verifyField(genes, gpattern)) {
+                    axios({
+                        url: '',
+                        method: 'post',
+                        data: {
+                            genes: genes.value,
+                            features: flist
+                        },
+                        headers: {
+                            "X-CSRFToken": document.querySelector('[name="csrfmiddlewaretoken"]').value,
+                            "content-type": "application/json"
+                        }
+                    }).then(result => {
+                        if (result.data.err.length >= 1) alert(`Genes ${result.data.err.join(', ')} do(es) not exist.`)
+                        location.href = result.data.link
+                        console.log(result.data.link)
+                    })
+                }
+            })
+        })();
+
+        (function () {
+            egbtn.addEventListener('click', function () {
+                genes.value = this.value
+            })
+        })();
+    </script>
+{% endblock %}

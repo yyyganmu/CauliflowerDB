@@ -1,0 +1,23 @@
+{% extends './layout.html' %}
+
+{% block title %}
+    CauliflowerDB-Download
+{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+        <!--        下载文件信息区-->
+        <div class="col-lg-8">
+            <p class="fs-6">So far we provide the genome assembly in fasta format and gene annotation file in gff3 format for downloading.</p>
+            <div class="list-group">
+                <a href="/caulie/downloadfile/Cauliflower_genome.fasta/" class="list-group-item list-group-item-action">Genome assembly in fasta format</a>
+                <a href="/caulie/downloadfile/allset_v1_new.gff/" class="list-group-item list-group-item-action">Gene annotation file in gff3 format</a>
+<!--                <a href="#" class="list-group-item list-group-item-action">A third link item</a>-->
+<!--                <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>-->
+<!--                <a class="list-group-item list-group-item-action disabled">A disabled link item</a>-->
+            </div>
+        </div>
+
+        <!--        文件信息区结束-->
+    </div>
+{% endblock %}

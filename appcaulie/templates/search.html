@@ -1,0 +1,190 @@
+{% extends './layout.html' %}
+
+{% block title %}CauliflowerDB-Search{% endblock %}
+
+{% block content %}
+    <div class="row justify-content-center">
+        <!--        搜索信息区-->
+        <div class="col-lg-8">
+            <p class="fs-6">We provide two gene-search methods. You can either input both start position and end
+                position of a
+                chromosome to look through the genes in a certain block, or type a specific gene ID to exam its
+                information.</p>
+            <div class="row justify-content-center">
+                <!--                按区间搜索-->
+                <form action="" method="post" target="_blank" id="byblock" novalidate>
+                    {% csrf_token %}
+                    <label for="start">Input positions:</label>
+                    <div class="input-group mb-3 control-label">
+                        <select class="form-select" name="chrom" id="chrom">
+                            <!--                            <option>Chr0</option>-->
+                            <option selected="selected">Chr1</option>
+                            <option>Chr2</option>
+                            <option>Chr3</option>
+                            <option>Chr4</option>
+                            <option>Chr5</option>
+                            <option>Chr6</option>
+                            <option>Chr7</option>
+                            <option>Chr8</option>
+                            <option>Chr9</option>
+                        </select>
+                        <input type="number" class="form-control" placeholder="start" name="start" id="start" required>
+                        <input type="number" class="form-control" placeholder="end" name="end" id="end" required>
+                        <button type="submit" class="btn btn-primary">Search</button>
+{#                        <div class="invalid-feedback">Incorrect positions</div>#}
+                    </div>
+                </form>
+                <!--                按区间搜索结束-->
+
+                <!--                按ID搜索-->
+                <form action="/cauliflowerdb/searchbyid/" method="get" target="_blank" id="byid" novalidate>
+                    {% csrf_token %}
+                    <label for="geneid">Input Gene ID:</label>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="GeneID" id="geneid" name="geneid" required>
+                        <span class="input-group-text" style="font-size: 14px"><a href="javascript" style="text-decoration: none">BOB02G007110</a></span>
+                        <button type="submit" class="btn btn-primary">View</button>
+{#                        <div class="invalid-feedback">Illegal gene ID</div>#}
+                    </div>
+                </form>
+                <!--                按ID搜索结束-->
+            </div>
+            <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25" aria-valuemin="0"
+                 aria-valuemax="100" style="height: 3px; margin-top: 12px; margin-bottom: 12px">
+                <div class="progress-bar bg-warning" style="width: 100%"></div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-6 text-center" id="results">
+{#                <br>#}
+{#                <table class="table table-striped text-center">#}
+{#                    <thead class="visually-hidden">#}
+{#                    <tr>#}
+{#                        <th scope="col">Gene ID</th>#}
+{#                        <th scope="col">startPos</th>#}
+{#                        <th scope="col">endPos</th>#}
+{#                        <th scope="col">Strand</th>#}
+{#                    </tr>#}
+{#                    </thead>#}
+{#                    <tbody></tbody>#}
+{#                </table>#}
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block script %}
+    <script>
+        // 获取标签对象
+        const form1 = document.querySelector('#byblock')
+        const chrom = document.querySelector('#chrom')
+        const start = document.querySelector('#start')
+        const end = document.querySelector('#end')
+        const form2 = document.querySelector('#byid')
+        const geneid = document.querySelector('#geneid')
+        const resultdiv = document.querySelector('#results')
+
+        // 定义验证字段的函数
+        function verifyField(field, pattern) {
+            {#const fieldfeedback = field.nextElementSibling.nextElementSibling#}
+            if (pattern.test(field.value)) {
+                {#fieldfeedback.style.display = 'none'#}
+                if (field.classList.contains('is-invalid')) field.classList.remove('is-invalid')
+                return true
+            } else {
+                {#fieldfeedback.style.display = 'block'#}
+                field.classList.add('is-invalid')
+                return false
+            }
+        }
+
+        // 按区间搜索的表单，验证字段，然后进行ajax请求
+        (function () {
+            end.addEventListener('change', function () {
+                if (this.value > start.value) {
+                    if (this.classList.contains('is-invalid')) this.classList.remove('is-invalid')
+                } else {
+                    this.classList.add('is-invalid')
+                }
+            })
+
+            form1.addEventListener('submit', function (event) {
+                // 阻止表单自动提交
+                event.preventDefault()
+                // 只有起始位置合法才进行ajax请求
+                if (end.value > start.value) {
+                    axios({
+                        url: '',
+                        method: 'post',
+                        data: {
+                            chrom: chrom.value,
+                            start: start.value,
+                            end: end.value
+                        },
+                        headers: {
+                            "X-CSRFToken": document.querySelector('[name="csrfmiddlewaretoken"]').value,
+                            "content-type": "application/json"
+                        }
+                    }).then(result => {
+                        // 先清除结果区域的内容
+                        resultdiv.innerHTML = ''
+
+                        // 如果有错误信息就弹窗展示，结束请求
+                        if (result.data.err) {
+                            return alert(result.data.err)
+                        }
+
+                        // 处理返回的结果
+                        const thead = '<thead><tr><th scope="col">Gene ID</th><th scope="col">startPos</th><th scope="col">endPos</th><th scope="col">Strand</th></tr></thead>'
+                        let tbody = []
+                        for (let i = 0; i < result.data.genes.length; i++) {
+                            tbody.push(`<tr><th scope="row"><a href="/cauliflowerdb/searchbyid/?geneid=${result.data.genes[i]['id']}" target="_blank">${result.data.genes[i]['id']}</a></th><td>${result.data.genes[i].start}</td><td>${result.data.genes[i].end}</td><td>${result.data.genes[i].strand}</td></tr>`)
+                        }
+                        tbody = `<tbody>${tbody.join('')}</tbody>`
+
+                        // 生成一个table展示结果
+                        const table = document.createElement('table')
+                        table.className = 'table table-striped text-center'
+                        table.innerHTML = thead + tbody
+                        resultdiv.appendChild(table)
+                    })
+                }
+            })
+        })();
+
+        // 按ID搜索的表单，验证字段后提交，先进行ajax请求验证geneid是否存在，存在的话就跳转连接
+        (function () {
+            geneid.addEventListener('change', function () {verifyField(geneid, /^BOB0[1-9]G\d{6}$/)}, false)
+            document.querySelector('.input-group-text > a').addEventListener('click', function (event) {
+                // 阻止a标签自动跳转
+                event.preventDefault()
+                // 把a标签的innerText填充到输入框中
+                this.parentElement.previousElementSibling.value = this.innerText
+            })
+
+            // 如果验证不通过的话就阻止提交
+            form2.addEventListener('submit', function (event) {
+                event.preventDefault()
+                if (verifyField(geneid, /^BOB0[1-9]G\d{6}$/)) {
+                    axios({
+                        url: '/cauliflowerdb/searchbyid/',
+                        method: 'post',
+                        data: {geneid: geneid.value},
+                        headers: {
+                            "X-CSRFToken": document.querySelector('[name="csrfmiddlewaretoken"]').value,
+                            "content-type": "application/json"
+                        }
+                    }).then(result => {
+                        if (result.data.err) {
+                            // 如果有错误信息的话，就弹窗显示
+                            return alert(result.data.err)
+                        } else {
+                            // 如果没有错误信息的话，那就是这个geneid存在，在新窗口中打开查询结果
+                            window.open(`/cauliflowerdb/searchbyid/?geneid=${geneid.value}`)
+                        }
+                    })
+                }
+            })
+        })();
+    </script>
+{% endblock %}

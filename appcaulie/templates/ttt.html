@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ttt</title>
+</head>
+<body>
+
+<form action="javascript:;">
+    <input type="checkbox" name="region" value="regionyes" class="c1">
+    <input type="checkbox" name="sapmles" value="samplesyes" class="c2">
+    <button>SUBMIT</button>
+</form>
+
+<script>
+    const c1 = document.querySelector('.c1')
+    const c2 = document.querySelector('.c2')
+    const form = document.querySelector('form')
+    const btn = document.querySelector('button')
+
+    form.addEventListener('submit', function (event) {
+        event.preventDefault()
+        console.log({
+            c1: c1.checked ? 'c1checked' : 'c1unchecked',
+            c2: c2.checked ? 'c2checked' : 'c2unchecked'
+        })
+    })
+</script>
+
+</body>
+</html>

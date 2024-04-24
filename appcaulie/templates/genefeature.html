@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CauliflowerDB-Features</title>
+    <link rel="stylesheet" href="{% static 'plugins/bootstrap/css/bootstrap.css' %}">
+    <link rel="shortcut icon" href="{% static 'imgs/favicon.ico' %}">
+    <style>
+        th {
+            width: 25%;
+        }
+    </style>
+</head>
+<body class="bg-body">
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <br>
+            <h1>Gene Annotation</h1>
+            <table class="table table-bordered border border-2" style="word-break: break-all; word-wrap: break-word;">
+                <tbody>
+                <tr><td colspan="4" class="text-center"><a href="/cauliflowerdb/downloadfile/{{ filename }}">Click here </a>to download the results in FASTA format.</td></tr>
+                <tr><th scope="row">Species: </th><td colspan="3">Cauliflower (<em>Brassica oleracea var. botrytis</em>)</td></tr>
+                <tr><th scope="row">Gene ID: </th><td colspan="3">{{ geneid }}</td></tr>
+                <tr><th scope="row">Location: </th><td colspan="3">At {{ chrom }} from {{ start }} to {{ end }}</td></tr>
+                <tr><th scope="row">Function: </th><td colspan="3">function?</td></tr>
+                {% for seqid, seqseq in seqsdic.items %}
+                    <tr><td colspan="4"><span class="text-success">{{ seqid }}</span><br><span class="seq">{{ seqseq }}</span></td></tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

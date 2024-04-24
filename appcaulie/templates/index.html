@@ -1,0 +1,78 @@
+{% extends './layout.html' %}
+{% load static %}
+
+{% block title %}CauliflowerDB-Home{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <!--         左侧正文栏-->
+        <div class="col-lg-8">
+            <p class="fs-2">Welcome to CaulieflowerDB</p>
+            <p class="fs-5">A multi-omics database for cauliflower research community</p>
+            <img src="{% static 'imgs/cauli_lifespan.jpg' %}" alt="cauli_lifespan" class="img-fluid">
+            <br><br>
+            <p class="fs-6">
+                <em>Brassica oleracea</em>, as the C type diploid in the triangle of U, is
+                well-characterized by its remarkable morphological diversity, bearing specialized leafy, stem, or
+                floral organs represented by Chinese kale, kohlrabi, Brussels sprouts, cabbage, broccoli and cauliflower.
+                The great variety of wild species, the characteristics of intra-crossability and strong
+                self-incomatibility raise serious challenges for investigating
+                the domestication history of B. oleracea, the authentic relationships among subspecies, and the <em>bona
+                    fide</em> ancestral source. Recently, multiple evidence indicated
+                that the Aegean endemic <em>B. cretica</em> might be the origin of currently cultivated <em>B.
+                    oleracea</em>.
+            </p>
+            <p class="fs-6">
+                CauliflowerDB provides access to <a href="/cauliflowerdb/jbrowse/">gene assembly visualization</a>,
+                <a href="/cauliflowerdb/snpseek/">SNP seeking</a>, <a href="/cauliflowerdb/consensusseq/">consensus sequence generating</a>,
+                and <a href="/cauliclowerdb/search/">genes</a> & <a href="/caulilfowerdb/target/">CRISPR targets</a> searching.
+                It serves as a valuable tool and resources for the cauliflower research community.
+            </p>
+        </div>
+        <!--        左侧正文栏结束-->
+
+        <!--        右侧信息展示栏-->
+        <div class="col-lg-4">
+            <!--            成果展示栏-->
+            <div class="card">
+                <div class="card-header">Library Achievements</div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <a href="https://pubmed.ncbi.nlm.nih.gov/32298599/" target="_blank">Target Specificity for CRISPR/Cas9 System</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="https://bmcplantbiol.biomedcentral.com/articles/10.1186/s12870-022-03920-2" target="_blank">SNP Fingerprintints for Cauliflower Germplasm</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="https://pubmed.ncbi.nlm.nih.gov/35414860/" target="_blank">Metabolic and RNA Sequencing Analysis of Cauliflower Curds</a>
+                    </li>
+                </ul>
+            </div>
+            <!--            成果展示栏结束-->
+            <br>
+            {#            快捷链接部分#}
+            <div class="card">
+                <div class="card-header">Quick Links for Relevant Databases</div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a href="https://www.ncbi.nlm.nih.gov/" target="_blank">NCBI</a></li>
+                    <li class="list-group-item"><a href="https://www.ebi.ac.uk/" target="_blank">EMBL-EBI</a></li>
+                    <li class="list-group-item"><a href="http://www.bogdb.com/" target="_blank">BoGDB</a></li>
+                    <li class="list-group-item"><a href="http://brassicadb.cn/#/" target="_blank">BRAD</a></li>
+                </ul>
+            </div>
+            {#            快捷链接部分结束#}
+            <br>
+            {#            地球访客统计#}
+            <div class="card">
+                <div class="card-header">Global Visitors</div>
+                <div class="card-body">
+                    <script type="text/javascript"
+                            src="//rf.revolvermaps.com/0/0/7.js?i=580z8edfo6x&amp;m=0&amp;c=baff00&amp;cr1=ff0000&amp;sx=0"
+                            async="async"></script>
+                </div>
+            </div>
+            {#            地球访客统计结束#}
+        </div>
+        <!--        右侧信息展示栏结束-->
+    </div>
+{% endblock %}

@@ -1,0 +1,160 @@
+{% extends './layout.html' %}
+
+{% block title %}CauliflowerDB-SeqMaker{% endblock %}
+
+{% block content %}
+    <!--    信息搜索区-->
+    <div class="row justify-content-center">
+    <!--        序列生成区-->
+        <div class="col-lg-8">
+            <form action="" method="post" target="_blank" class="needs-validation" novalidate>
+                {% csrf_token %}
+                <div class="row mb-3">
+                    <label for="region2" class="col-sm-2 col-form-label">Region</label>
+                    <div class="col-sm-10">
+                        <div class="input-group has-validation">
+                            <input type="text" class="form-control" id="region2" name="region" placeholder="chrX:startPos-endPos" required>
+                            <span class="input-group-text"><a href="javascript" style="text-decoration: none; font-size: 14px">Chr1:3000-3500</a></span>
+                            <div class="invalid-feedback">Incorrect format</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="samples2" class="col-sm-2 col-form-label">Samples</label>
+                    <div class="col-sm-10">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="samples2" name="samples" placeholder="Sample names separated by a single comma" required>
+                            <span class="input-group-text" style="border-top-right-radius: 0.25rem; border-bottom-right-radius: 0.25rem"><a href="javascript" style="text-decoration: none; font-size: 14px">C0_0056,C0_0057</a></span>
+                            <div class="invalid-feedback">Ilegal sample name(s)</div>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary" id="sbbtn">Create</button>
+                <a href="" class="btn btn-success disabled" id="dlbtn" style="display: inline-block">Download</a>
+                <div class="spinner-border spinner-border-sm text-success visually-hidden" role="status" id="spinner">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </form>
+            <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25" aria-valuemin="0"
+                 aria-valuemax="100" style="height: 3px; margin-top: 12px; margin-bottom: 12px">
+                <div class="progress-bar bg-warning" style="width: 100%"></div>
+            </div>
+        </div>
+    <!--        序列生成区结束-->
+    </div>
+    {#    ajax结果展示区#}
+    <div class="row justify-content-center">
+        <div class="col-lg-10 table-responsive" id="results"></div>
+    </div>
+{% endblock %}
+
+{% block script %}
+    <script>
+        // 获取标签对象
+        const region = document.querySelector('[name="region"]')
+        const samples = document.querySelector('[name="samples"]')
+        const form = document.querySelector('form.needs-validation')
+        const dlbtn = document.querySelector('#dlbtn')
+        const sbbtn = document.querySelector('#sbbtn')
+        const resultdiv = document.querySelector('#results')
+        const spinner = document.querySelector('#spinner')
+
+        // 设定正则匹配模式
+        const regionpattern = /^Chr[0-9]:\d+-\d+$/
+        const samplespattern = /^[a-z]([0-9]|[a-z])+_[a-z0-9]+(,[a-z]([0-9]|[a-z])+_[a-z0-9]+)*$/i
+
+        // 定义验证字段的函数
+        function verifyField(field, pattern) {
+            const fieldfeedback = field.nextElementSibling.nextElementSibling
+            if (pattern.test(field.value)) {
+                fieldfeedback.style.display = 'none'
+                if (field.classList.contains('is-invalid')) field.classList.remove('is-invalid')
+                return true
+            } else {
+                fieldfeedback.style.display = 'block'
+                field.classList.add('is-invalid')
+                return false
+            }
+        }
+
+        // 验证表单字段，并进行ajax请求
+        (function () {
+            region.addEventListener('change', function () {verifyField(region, regionpattern)}, false)
+            samples.addEventListener('change', function () {verifyField(samples, samplespattern)}, false)
+
+            form.addEventListener('submit', function (event) {
+                // 阻止表单自动提交，而是进行ajax请求
+                event.preventDefault()
+
+                // 只有字段通过验证才进行ajax请求
+                if (verifyField(region, regionpattern) && verifyField(samples, samplespattern)) {
+                    // 禁用提交按钮，在进行ajax请求的时候不能再次点击
+                    sbbtn.disabled = true
+                    // 禁用下载按钮，这个按钮在刚打开网页的时候就是禁用的，但是一次请求成功后会成为可用的，所以再次请求的时候要再变为禁用
+                    if (!dlbtn.classList.contains('disabled')) dlbtn.classList.add('disabled')
+                    // 让转圈的显形
+                    if (spinner.classList.contains('visually-hidden')) spinner.classList.remove('visually-hidden')
+
+                    axios({
+                        url: '',
+                        method: 'post',
+                        data: {
+                            region: region.value,
+                            samples: samples.value
+                        },
+                        headers: {
+                            "X-CSRFToken": document.querySelector('[name="csrfmiddlewaretoken"]').value,
+                            "content-type": "application/json"
+                        }
+                    }).then(result => {
+                        // 先清空结果区域的内容
+                        resultdiv.innerHTML = ''
+
+                        // 恢复提交按钮
+                        sbbtn.disabled = false
+                        // 让转圈的隐藏
+                        spinner.classList.add('visually-hidden')
+
+                        // 如果有错误信息就弹窗展示，结束请求
+                        if (result.data.err) {
+                            return alert(result.data.err)
+                        }
+
+                        // 将返回的序列结果处理成表格的tbody和tr
+                        let seqtrs = []
+                        for (let i in result.data.seqs) {
+                            seqtrs.push(`<tr><td><span class="text-success">${i}</span><br><span class="seq">${result.data.seqs[i][0]}<br>(${result.data.seqs[i][1]})</span><br></td></tr>`)
+                        }
+                        seqtrs = `<tbody>${seqtrs.join('')}</tbody>`
+                        console.log(seqtrs)
+
+                        // 设置下载按钮
+                        dlbtn.href = result.data.link
+                        dlbtn.classList.remove('disabled')
+
+                        // 生成一个table展示序列结果
+                        const table = document.createElement('table')
+                        table.className = 'table table-bordered border border-2 text-left'
+                        table.id = 'consensusseq'
+                        {#table.style = 'word-break: break-all; word-wrap: break-all;'#}
+                        table.innerHTML = seqtrs
+                        resultdiv.appendChild(table)
+                    })
+                }
+            })
+        })();
+
+        // 点击输入框后面的文字，可以自动把文字填到输入框里
+        (function () {
+            const labels = document.querySelectorAll('.input-group-text > a')
+            for (let i = 0; i < labels.length; i++) {
+                labels[i].addEventListener('click', function (event) {
+                    //  阻止a标签的自动跳转功能
+                    event.preventDefault()
+                    // 把a标签的innerText填写到输入框中
+                    this.parentElement.previousElementSibling.value = this.innerText
+                })
+            }
+        })();
+    </script>
+{% endblock %}

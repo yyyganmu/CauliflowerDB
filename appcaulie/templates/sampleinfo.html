@@ -1,0 +1,31 @@
+{% extends './layout.html' %}
+{% load static %}
+
+{% block title %}CauliflowerDB-Samples{% endblock %}
+
+{% block content %}
+<div class="container">
+<div class="row justify-content-center">
+    <div class="col-lg-10 text-center">
+        <table class="table table-striped text-center">
+            <thead><tr><th scope="col">VCF ID</th><th scope="col">Name</th><th scope="col">Group</th><th scope="col">Clade</th><th scope="col">Taxonomy</th></tr></thead>
+            {% for i in datalist %}
+                <tr>
+                <td>{{ i.sampleid }}</td>
+                <td>{{ i.name }}</td>
+                <td>{{ i.group }}</td>
+                <td>{{ i.clade }}</td>
+                <td>{{ i.taxonomy }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+        <ul class="pagination justify-content-center">
+            {{ page_string }}
+        </ul>
+    </div>
+    <div class="col-lg-10 text-center">
+        <img src="{% static 'imgs/sample_group.jpg' %}" alt="sample_group" class="img-fluid">
+    </div>
+</div>
+</div>
+{% endblock %}

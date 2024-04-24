@@ -1,0 +1,102 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'plugins/bootstrap/css/bootstrap.css' %}">
+    <link rel="shortcut icon" href="{% static 'imgs/favicon.ico' %}">
+    <style>
+        .navbar {
+            background-color: #B39BC8 !important;
+        }
+
+        .navbar a {
+            color: #1a1e21;
+        }
+
+        .nav-link:hover, .nav-link:focus {
+            color: #f0f0f0;
+        }
+
+        button:hover {
+            color: #f0f0f0;
+        }
+
+        .card a {
+            color: #1a1e21 !important;
+            text-decoration: none !important;
+        }
+
+        #results > #consensusseq {
+            word-break: break-all;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body class="bg-body">
+
+<div class="container">
+    <!--    导航栏-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/cauliflowerdb/home/"><strong>CauliflowerDB</strong></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="/cauliflowerdb/home/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/cauliflowerdb/genome/">Genome</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                           aria-expanded="false">Variation</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/cauliflowerdb/sampleinfo/" target="_blank">SampleInfo</a></li>
+                            <li><a class="dropdown-item" href="/cauliflowerdb/snpseek/">SNPSeek</a></li>
+                            <li><a class="dropdown-item" href="/cauliflowerdb/consensusseq/">ConsensusSeq</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Genes</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/cauliflowerdb/search/">Search</a></li>
+                            <li><a class="dropdown-item" href="/cauliflowerdb/batch/">Batch</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="/cauliflowerdb/target/">CRISPR</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/cauliflowerdb/blast/" target="_blank">BLAST</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/cauliflowerdb/download/">Download</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--    导航栏结束-->
+    <br>
+    {#    版心#}
+    {% block content %}{% endblock %}
+    {#    版心结束#}
+
+    <!--        底部-->
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="/cauliflowerdb/genome/" class="nav-link px-2 text-muted">Assembly</a></li>
+            <li class="nav-item"><a href="/cauliflowerdb/snpseek/" class="nav-link px-2 text-muted">SNP</a></li>
+            <li class="nav-item"><a href="/cauliflowerdb/search/" class="nav-link px-2 text-muted">Genes</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contact</a></li>
+        </ul>
+        <p class="text-center text-muted">© 2023 Company, Inc</p>
+    </footer>
+    <!--        底部结束-->
+</div>
+
+<script src="{% static 'js/jquery-3.6.3.js' %}"></script>
+<script src="{% static 'js/axios.js' %}"></script>
+<script src="{% static 'plugins/bootstrap/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'plugins/bootstrap/js/popper.min.js' %}"></script>
+{% block script %}{% endblock %}
+</body>
+</html>

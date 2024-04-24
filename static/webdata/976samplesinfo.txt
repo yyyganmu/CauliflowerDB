@@ -1,0 +1,971 @@
+Bnigra_PRJNA516907	OutGroup	-	-	Brassica nigra
+Bnigra_PRJNA320480	OutGroup	-	-	Brassica nigra
+A046_ChineseCabbage	OutGroup	-	-	Brassica rapa
+A009_ChineseCabbage	OutGroup	-	-	Brassica rapa
+A013_ChineseCabbage	OutGroup	-	-	Brassica rapa
+SRR6453800	Wild	-	-	Brassica insularis
+SRR6453595	Wild	-	-	Brassica insularis
+SRR6453801	Wild	-	-	Brassica insularis
+SRR6453573	Wild	-	-	Brassica insularis
+SRR6453611	Wild	-	-	Brassica macrocarpa
+SRR4289358	Wild	-	-	Brassica macrocarpa
+SRR6453614	Wild	-	-	Brassica macrocarpa
+C0_0166	Wild	-	-	Brassica macrocarpa
+SRR6453778	Wild	-	-	Brassica rupestris
+SRR6453822	Wild	-	-	Brassica villosa
+SRR6453602	Wild	-	-	Brassica villosa
+SRR6453599	Wild	-	-	Brassica villosa
+SRR6453779	Wild	-	-	Brassica rupestris
+SRR6453617	Wild	-	-	Brassica rupestris
+SRR6453618	Wild	-	-	Brassica rupestris
+SRR6453612	Wild	-	-	Brassica rupestris
+SRR6453871	Wild	-	-	Brassica hilarionis
+SRR9331105	Wild	-	-	Brassica cretica subsp. cretica
+SRR9331103	Wild	-	-	Brassica cretica subsp. nivea
+SRR9331106	Wild	-	-	Brassica cretica subsp. cretica
+SRR9331104	Wild	-	-	Brassica cretica subsp. nivea
+C0_0162	Wild	-	-	Brassica cretica 
+PN_0845	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+PN_0846	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+PN_0844	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+SRR1212994	Chinese kale	Clade 1	-	Brassica oleracea var. oleracea
+SRR1212993	Chinese kale	Clade 1	-	Brassica oleracea var. oleracea
+C111_ChinKale04	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0049	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0044	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C109_ChinKale02	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C110_ChinKale03	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C108_ChinKale01	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0024	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0023	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0017	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0048	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0047	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0012	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0046	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0037	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0045	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0040	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0041	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0053	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0051	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0052	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0026	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0015	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0016	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0002	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0022	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0033	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0035	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0013	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0018	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0027	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0020	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0050	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0021	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0019	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0039	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0032	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0031	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0006	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0004	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0042	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0036	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0011	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0034	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0014	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0009	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0025	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0005	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0003	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0008	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0043	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0010	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0007	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0038	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C0_0001	Chinese kale	Clade 1	-	Brassica oleracea var. alboglabra
+C053_Kohlrabi08	Kohlrabi	Clade 2	-	Brassica oleracea var. gongylodes
+SRR6453782	Feral	Clade 2	-	Brassica incana
+SRR6453781	Feral	Clade 2	-	Brassica incana
+C0_0165	Kohlrabi	Clade 2	-	Brassica oleracea var. gongylodes
+C051_Kohlrabi06	Kohlrabi	Clade 2	-	Brassica oleracea var. gongylodes
+C052_Kohlrabi07	Kohlrabi	Clade 2	-	Brassica oleracea var. gongylodes
+C0_0174	Kohlrabi	Clade 2	-	Brassica oleracea var. gongylodes
+C0_0168	Kohlrabi	Clade 2	-	Brassica oleracea var. gongylodes
+C062_Kohlrabi17	Kohlrabi	Clade 2	-	Brassica oleracea var. gongylodes
+C0_0171	Kohlrabi	Clade 2	-	Brassica oleracea var. gongylodes
+C0_0169	Kohlrabi	Clade 2	-	Brassica oleracea var. gongylodes
+C0_0170	Kohlrabi	Clade 2	-	Brassica oleracea var. gongylodes
+C063_Kohlrabi18	Kohlrabi	Clade 2	-	Brassica oleracea var. gongylodes
+C0_0173	Kohlrabi	Clade 2	-	Brassica oleracea var. gongylodes
+C0_0172	Kohlrabi	Clade 2	-	Brassica oleracea var. gongylodes
+C064_Kohlrabi19	Kohlrabi	Clade 2	-	Brassica oleracea var. gongylodes
+C060_Kohlrabi15	Kohlrabi	Clade 2	-	Brassica oleracea var. gongylodes
+C047_Kohlrabi02	Kohlrabi	Clade 2	-	Brassica oleracea var. gongylodes
+C0_0175	Kohlrabi	Clade 2	-	Brassica oleracea var. gongylodes
+C061_Kohlrabi16	Kohlrabi	Clade 2	-	Brassica oleracea var. gongylodes
+C049_Kohlrabi04	Kohlrabi	Clade 2	-	Brassica oleracea var. gongylodes
+C055_Kohlrabi10	Kohlrabi	Clade 2	-	Brassica oleracea var. gongylodes
+C046_Kohlrabi01	Kohlrabi	Clade 2	-	Brassica oleracea var. gongylodes
+C057_Kohlrabi12	Kohlrabi	Clade 2	-	Brassica oleracea var. gongylodes
+C056_Kohlrabi11	Kohlrabi	Clade 2	-	Brassica oleracea var. gongylodes
+C050_Kohlrabi05	Kohlrabi	Clade 2	-	Brassica oleracea var. gongylodes
+C054_Kohlrabi09	Kohlrabi	Clade 2	-	Brassica oleracea var. gongylodes
+C058_Kohlrabi13	Kohlrabi	Clade 2	-	Brassica oleracea var. gongylodes
+C059_Kohlrabi14	Kohlrabi	Clade 2	-	Brassica oleracea var. gongylodes
+C048_Kohlrabi03	Kohlrabi	Clade 2	-	Brassica oleracea var. gongylodes
+C0_0157	Lacinato kale	Clade 2	-	Brassica oleracea var. palmifolia
+C0_0146	Lacinato kale	Clade 2	-	Brassica oleracea var. palmifolia
+C0_0163	Feral	Clade 2	-	Brassica oleracea var. oleracea
+C026_Cabbage026	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+SRR6453823	Feral	Clade 2	-	Brassica villosa
+C118_Wild000001	Feral	Clade 2	-	Wild (CGN06903/France)
+SRR6453613	Feral	Clade 2	-	Brassica montana
+C119_Wild000002	Feral	Clade 2	-	Wild (CGN18947/Germany)
+C116_CurlKale01	Curly kale	Clade 2	-	Brassica oleracea var. sabellica
+C0_0142	Curly kale	Clade 2	-	Brassica oleracea var. sabellica
+C0_0127	Curly kale	Clade 2	-	Brassica oleracea var. sabellica
+C117_CurlKale02	Curly kale	Clade 2	-	Brassica oleracea var. sabellica
+C0_0143	Curly kale	Clade 2	-	Brassica oleracea var. sabellica
+C113_Brussels02	Brussels sprouts 	Clade 2	-	Brassica oleracea var. gemmifera
+C0_0129	Brussels sprouts 	Clade 2	-	Brassica oleracea var. gemmifera
+C0_0141	Brussels sprouts 	Clade 2	-	Brassica oleracea var. gemmifera
+C0_0132	Brussels sprouts 	Clade 2	-	Brassica oleracea var. gemmifera
+C112_Brussels01	Brussels sprouts 	Clade 2	-	Brassica oleracea var. gemmifera
+SRR6453863	Feral	Clade 2	-	Brassica oleracea var. oleracea
+C0_0134	Brussels sprouts 	Clade 2	-	Brassica oleracea var. gemmifera
+C0_0128	Brussels sprouts 	Clade 2	-	Brassica oleracea var. gemmifera
+C0_0133	Brussels sprouts 	Clade 2	-	Brassica oleracea var. gemmifera
+C0_0149	Brussels sprouts 	Clade 2	-	Brassica oleracea var. gemmifera
+C0_0130	Brussels sprouts 	Clade 2	-	Brassica oleracea var. gemmifera
+C0_0135	Brussels sprouts 	Clade 2	-	Brassica oleracea var. gemmifera
+C0_0136	Brussels sprouts 	Clade 2	-	Brassica oleracea var. gemmifera
+C0_0131	Brussels sprouts 	Clade 2	-	Brassica oleracea var. gemmifera
+C0_0148	Savoy cabbage	Clade 2	-	Brassica oleracea var. capitata
+C0_0147	Savoy cabbage	Clade 2	-	Brassica oleracea var. capitata
+C0_0159	Kale	Clade 2	-	Brassica oleracea var. acephala
+C0_0144	Kale	Clade 2	-	Brassica oleracea var. acephala
+C114_Kale000001	Kale	Clade 2	-	Brassica oleracea var. acephala
+C115_Kale000002	Kale	Clade 2	-	Brassica oleracea var. acephala
+C0_0145	Kale	Clade 2	-	Brassica oleracea var. acephala
+C0_0139	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C0_0138	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C0_0140	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C0_0137	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C030_PointCab01	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C032_PointCab03	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C031_PointCab02	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C024_Cabbage024	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C027_Cabbage027	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C039_WhiteCab07	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C028_Cabbage028	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C005_Cabbage005	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C001_Cabbage001	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C045_Cabbage031	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C044_Cabbage030	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C025_Cabbage025	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C042_WhiteCab10	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C006_Cabbage006	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C043_WhiteCab11	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C022_Cabbage022	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C008_Cabbage008	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C034_WhiteCab02	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C037_WhiteCab05	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C009_Cabbage009	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C007_Cabbage007	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C029_Cabbage029	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C036_WhiteCab04	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C035_WhiteCab03	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C015_Cabbage015	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C040_WhiteCab08	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C011_Cabbage011	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C019_Cabbage019	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C012_Cabbage012	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C003_Cabbage003	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C041_WhiteCab09	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C014_Cabbage014	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C002_Cabbage002	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C021_Cabbage021	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C004_Cabbage004	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C020_Cabbage020	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C013_Cabbage013	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C017_Cabbage017	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C038_WhiteCab06	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C0_0164	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C018_Cabbage018	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C016_Cabbage016	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C010_Cabbage010	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C023_Cabbage023	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C033_WhiteCab01	Cabbage	Clade 2	-	Brassica oleracea var. capitata
+C0_0029	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C106_Broccoli22	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C0_0160	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C0_0182	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C0_0181	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C0_0188	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C0_0186	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C0_0189	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C0_0193	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C095_Broccoli11	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C096_Broccoli12	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C0_0184	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C105_Broccoli21	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C098_Broccoli14	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C102_Broccoli18	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C092_Broccoli08	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C0_0191	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C0_0185	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C0_0192	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C090_Broccoli06	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C091_Broccoli07	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C099_Broccoli15	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C101_Broccoli17	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C093_Broccoli09	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C0_0187	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C0_0177	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C0_0180	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C103_Broccoli19	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C094_Broccoli10	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C0_0179	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C087_Broccoli03	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C089_Broccoli05	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C088_Broccoli04	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C086_Broccoli02	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C097_Broccoli13	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C0_0190	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C0_0178	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C100_Broccoli16	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C085_Broccoli01	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C104_Broccoli20	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C0_0123	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C107_Broccoli23	Broccoli	Clade 3	-	Brassica oleracea var. italica
+PN_0847	Purple cauliflower	Clade 3	-	Brassica oleracea var. botrytis
+YC_0163	Purple cauliflower	Clade 3	-	Brassica oleracea var. botrytis
+C082_Cauliflo18	Purple cauliflower (Putative)	Clade 3	-	Brassica oleracea var. botrytis
+C0_0028	Broccoli	Clade 3	-	Brassica oleracea var. italica
+C0_0151	Cauliflower	Clade 4	Romanesco	Brassica oleracea var. botrytis
+C0_0152	Cauliflower	Clade 4	Romanesco	Brassica oleracea var. botrytis
+C0_0158	Cauliflower	Clade 4	Romanesco	Brassica oleracea var. botrytis
+C0_0150	Cauliflower	Clade 4	Romanesco	Brassica oleracea var. botrytis
+C0_0183	Cauliflower	Clade 4	Romanesco	Brassica oleracea var. botrytis
+PN_0835	Cauliflower	Clade 4	Romanesco	Brassica oleracea var. botrytis
+C066_Cauliflo02	Cauliflower	Clade 4	Romanesco	Brassica oleracea var. botrytis
+C065_Cauliflo01	Cauliflower	Clade 4	Romanesco	Brassica oleracea var. botrytis
+PN_0822	Cauliflower	Clade 4	Romanesco	Brassica oleracea var. botrytis
+PN_0817	Cauliflower	Clade 4	Romanesco	Brassica oleracea var. botrytis
+PN_0820	Cauliflower	Clade 4	Romanesco	Brassica oleracea var. botrytis
+PN_0816	Cauliflower	Clade 4	Romanesco	Brassica oleracea var. botrytis
+PN_0829	Cauliflower	Clade 4	Romanesco	Brassica oleracea var. botrytis
+PN_0818	Cauliflower	Clade 4	Romanesco	Brassica oleracea var. botrytis
+C067_Cauliflo03	Cauliflower	Clade 4	Romanesco	Brassica oleracea var. botrytis
+PN_0823	Cauliflower	Clade 4	Romanesco	Brassica oleracea var. botrytis
+PN_0828	Cauliflower	Clade 4	Romanesco	Brassica oleracea var. botrytis
+PN_0838	Cauliflower	Clade 4	Romanesco	Brassica oleracea var. botrytis
+PN_0821	Cauliflower	Clade 4	Romanesco	Brassica oleracea var. botrytis
+C070_Cauliflo06	Cauliflower	Clade 4	ELMC	Brassica oleracea var. botrytis
+C069_Cauliflo05	Cauliflower	Clade 4	ELMC	Brassica oleracea var. botrytis
+C074_Cauliflo10	Cauliflower	Clade 4	ELMC	Brassica oleracea var. botrytis
+C073_Cauliflo09	Cauliflower	Clade 4	ELMC	Brassica oleracea var. botrytis
+C075_Cauliflo11	Cauliflower	Clade 4	ELMC	Brassica oleracea var. botrytis
+C076_Cauliflo12	Cauliflower	Clade 4	ELMC	Brassica oleracea var. botrytis
+C072_Cauliflo08	Cauliflower	Clade 4	ELMC	Brassica oleracea var. botrytis
+C071_Cauliflo07	Cauliflower	Clade 4	ELMC	Brassica oleracea var. botrytis
+C078_Cauliflo14	Cauliflower	Clade 4	ELMC	Brassica oleracea var. botrytis
+PN_0746	Cauliflower	Clade 4	ELMC	Brassica oleracea var. botrytis
+C079_Cauliflo15	Cauliflower	Clade 4	ELMC	Brassica oleracea var. botrytis
+C083_Cauliflo19	Cauliflower	Clade 4	ELMC	Brassica oleracea var. botrytis
+PN_0757	Cauliflower	Clade 4	ELMC	Brassica oleracea var. botrytis
+PN_0739	Cauliflower	Clade 4	ELMC	Brassica oleracea var. botrytis
+PN_0779	Cauliflower	Clade 4	ELMC	Brassica oleracea var. botrytis
+PN_0738	Cauliflower	Clade 4	ELMC	Brassica oleracea var. botrytis
+PN_0758	Cauliflower	Clade 4	ELMC	Brassica oleracea var. botrytis
+PN_0774	Cauliflower	Clade 4	ELMC	Brassica oleracea var. botrytis
+PN_0708	Cauliflower	Clade 4	ELMC	Brassica oleracea var. botrytis
+PN_0613	Cauliflower	Clade 4	ELMC	Brassica oleracea var. botrytis
+PN_0765	Cauliflower	Clade 4	ELMC	Brassica oleracea var. botrytis
+PN_0727	Cauliflower	Clade 4	ELMC	Brassica oleracea var. botrytis
+PN_0717	Cauliflower	Clade 4	ELMC	Brassica oleracea var. botrytis
+PN_0650	Cauliflower	Clade 4	ELMC	Brassica oleracea var. botrytis
+PN_0775	Cauliflower	Clade 4	ELMC	Brassica oleracea var. botrytis
+PN_0764	Cauliflower	Clade 4	ELMC	Brassica oleracea var. botrytis
+C068_Cauliflo04	Cauliflower	Clade 4	ELMC	Brassica oleracea var. botrytis
+PN_0827	Cauliflower	Clade 4	ELMC	Brassica oleracea var. botrytis
+YC_0108	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0807	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0675	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0810	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0726	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0323	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0277	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0767	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0750	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0663	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0551	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0719	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0026	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+SN_0053	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0667	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+YC_0060	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0517	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0240	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0175	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0374	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+SN_0125	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+SN_0008	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0812	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0530	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0662	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0632	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0806	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0729	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0481	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0707	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0329	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0732	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0748	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0013	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0809	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0802	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+SN_1455	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0339	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+C0_0101	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+C0_0167	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0668	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0638	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0341	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+C0_0176	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0417	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0723	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0653	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0781	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0480	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0054	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0751	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0669	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0753	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0674	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0052	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0285	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0756	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0327	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0713	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0367	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0672	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0800	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+YC_0076	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0406	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0478	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0784	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0664	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0720	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0610	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0614	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0759	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0737	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0783	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0772	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+C0_0156	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+C0_0155	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0778	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0615	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0670	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+PN_0654	Cauliflower	Clade 4	LMC	Brassica oleracea var. botrytis
+C0_0102	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+SN_1438	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0714	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+C0_0100	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+C081_Cauliflo17	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0082	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0549	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+C0_0154	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+C0_0153	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0342	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+YC_0123	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0455	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+YC_0034	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+YC_0153	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+YC_0048	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0643	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0607	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+YC_0062	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+YC_0061	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+YC_0086	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+YC_0084	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0633	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0369	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0012	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+YC_0029	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0685	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+SN_1443	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0315	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+YC_0059	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0712	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0754	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0813	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+YC_0080	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0220	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0688	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0686	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+YC_0071	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0815	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0665	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0687	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+YC_0150	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0154	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0786	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0777	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0730	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0761	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0062	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+YC_0085	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0689	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0794	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0276	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0271	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0808	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0676	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0347	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0797	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0711	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+C0_0085	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0731	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+C084_Cauliflo20	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0601	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0785	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0292	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0762	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0646	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0611	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+YC_0067	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+YC_0023	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0625	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0359	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0011	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0081	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0773	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0647	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0671	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0734	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0728	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0051	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0710	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0366	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0725	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0452	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0362	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0055	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0332	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0801	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0321	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0799	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0724	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0652	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+C0_0104	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+C0_0090	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0299	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+SC_0129	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+C0_0089	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0469	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0303	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0295	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0485	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0371	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+C0_0073	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0306	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+C0_0111	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+C0_0095	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0116	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+C0_0092	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0070	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0069	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+C0_0078	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0528	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+C0_0093	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+C0_0084	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+C0_0113	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+C0_0107	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0046	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0016	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0092	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0050	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0036	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0814	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+SC_0127	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+C0_0081	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0621	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0117	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+YC_0131	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+C0_0121	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0217	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0170	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0534	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0266	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0265	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+SN_1422	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0755	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+YC_0069	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0495	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0656	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0604	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0482	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0334	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0312	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0684	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+SN_1420	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0622	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0811	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0212	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+YC_0046	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0679	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0437	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0086	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+C0_0103	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0140	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+SN_0267	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+C0_0086	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+SN_1424	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0432	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0358	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+SN_0562	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0424	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0047	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0546	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0545	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+C0_0098	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0527	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+YC_0138	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+YC_0136	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+YC_0143	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0431	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+YC_0065	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0526	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0152	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0538	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0391	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0392	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+YC_0122	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0067	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0075	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0523	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0272	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+SC_0130	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+C0_0091	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0157	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+C0_0088	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+YC_0079	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0021	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0114	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0176	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0438	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0286	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+C0_0120	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0375	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0239	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0244	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0071	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0076	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+YC_0137	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+SC_0128	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0307	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0185	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0178	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0302	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0072	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0365	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0169	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0156	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0182	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0314	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0373	Cauliflower	Clade 4	EMC-1	Brassica oleracea var. botrytis
+PN_0690	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C077_Cauliflo13	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0124	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0108	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0011	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0147	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0179	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0099	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0199	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0120	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0253	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0061	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0060	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0019	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0305	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0297	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0158	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0018	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0516	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0118	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0423	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0763	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0749	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0127	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0008	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0126	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0499	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0309	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0116	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0109	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0281	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0237	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0721	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0112	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0706	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0049	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0715	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0716	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0048	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0172	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0645	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0609	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0616	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0013	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0709	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0260	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0695	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0021	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0348	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0659	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0015	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0018	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0017	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0345	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0789	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0701	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0694	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0826	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0125	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0617	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0651	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0628	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0518	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0522	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0447	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0379	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0127	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0005	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0521	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0003	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0024	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0023	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0550	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0063	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0064	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0002	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0803	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0796	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0771	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0782	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0768	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0760	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0165	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0660	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0446	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0106	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0606	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0626	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0110	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0075	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0261	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+SN_1452	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0634	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0520	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0045	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0649	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0692	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0693	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0631	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0636	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0644	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0666	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0608	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0058	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0168	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0372	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0637	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0180	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0119	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0115	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0677	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0070	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0251	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0138	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0080	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0096	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0076	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0132	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0280	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0075	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0623	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0171	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0198	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0163	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0028	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0103	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0102	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0494	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0681	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0493	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0144	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0146	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0736	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0492	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0496	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0072	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0071	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0097	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0079	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0065	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0133	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0055	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0505	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0503	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0110	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0151	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0143	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0094	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0126	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0027	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0083	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0106	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0304	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0444	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0058	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0068	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0134	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0135	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0137	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+SN_0228	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0082	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0099	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0274	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0069	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0066	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0065	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0067	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0142	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0087	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+SN_0174	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0074	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0291	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0270	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0429	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0117	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0122	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0256	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0068	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0064	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0252	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0057	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0186	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0063	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0066	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0678	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0144	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0536	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0139	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0120	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+SC_0138	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0283	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0226	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0116	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0524	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0063	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0077	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0126	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0062	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0160	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0100	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0155	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0105	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0836	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0255	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0136	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0216	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0166	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0149	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0164	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0683	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0509	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0007	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0001	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0041	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0718	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0630	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0788	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0087	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0440	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0020	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0003	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0094	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0097	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0095	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0096	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0004	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0740	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0620	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0624	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0627	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0041	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0661	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0639	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0657	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0024	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0047	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0703	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0697	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0033	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0039	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0673	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0629	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0612	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0805	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0655	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0691	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0228	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0743	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0113	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0236	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0744	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0349	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0696	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0618	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0742	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0250	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0082	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0385	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0547	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0030	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0460	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0441	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0006	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0642	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0705	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0044	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0343	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0544	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0766	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0752	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0648	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0702	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0506	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0602	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0009	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0410	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0257	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0254	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0413	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0066	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0605	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0798	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0258	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0025	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0038	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0377	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0462	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0279	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0733	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0658	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0453	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0238	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0722	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0114	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0741	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0282	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0022	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0308	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+SN_1432	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0222	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0129	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0059	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+SN_0003	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+SC_0131	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0704	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0603	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0436	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0635	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0353	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0698	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0483	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0031	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0119	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0380	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0117	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0386	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+SC_0139	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0109	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0054	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0700	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0123	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0121	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0151	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0074	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0498	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0680	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0512	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0152	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0225	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0682	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0104	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0030	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0089	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0029	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0129	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0088	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0162	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0112	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0242	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0083	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0101	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0426	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0142	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0430	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0795	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0790	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0204	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0202	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0183	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0118	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0223	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0184	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0497	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0091	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0073	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0500	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0061	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0060	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0141	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0056	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0105	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0174	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0247	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0241	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C0_0064	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0149	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0090	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0791	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0145	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0792	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0039	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0787	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0793	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0033	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0093	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+C080_Cauliflo16	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0804	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0146	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0167	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0038	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0148	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0507	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0161	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0501	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0150	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0153	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0147	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0490	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+YC_0068	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0491	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0502	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis
+PN_0488	Cauliflower	Clade 4	EMC-2	Brassica oleracea var. botrytis

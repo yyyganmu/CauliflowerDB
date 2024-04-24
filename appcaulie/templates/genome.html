@@ -1,0 +1,72 @@
+{% extends './layout.html' %}
+{% load static %}
+
+{% block title %}
+    CauliflowerDB-Genome
+{% endblock %}
+
+{% block content %}
+<div class="container">
+<div class="row justify-content-center">
+    <div class="col-lg-10">
+        <h2>C-8 (V2) Reference Genome</h2>
+{#        <img src="{% static 'imgs/genome_circos.jpg' %}" alt="genome_circos" class="img-fluid" width="50%" height="50%">#}
+        <table class="table">
+            <tbody>
+            <tr>
+                <th scope="row">Common name:</th>
+                <td>Cauliflower</td>
+            </tr>
+            <tr>
+                <th scope="row">Scientific name:</th>
+                <td><em>Brassica oleracea</em> L. var. <em>botrytis</em></td>
+            </tr>
+            <tr>
+                <th scope="row">Taxonomy:</th>
+                <td>Angiospermae/Dicotyledoneae/Rhoeadales/Cruciferae/Brassica</td>
+            </tr>
+            <tr>
+                <th scope="row">Genome assembly:</th>
+                <td>C-8 (V2)</td>
+            </tr>
+            <tr>
+                <th scope="row">Assembly size:</th>
+                <td>568.52 Mb</td>
+            </tr>
+            <tr>
+                <th scope="row">Pseudo-chromosomes:</th>
+                <td>557.11 Mb (98.0%)</td>
+            </tr>
+            <tr>
+                <th scope="row">Repeat sequence:</th>
+                <td>331.36 Mb (58.3%)</td>
+            </tr>
+            <tr>
+                <th scope="row">Number of contigs:</th>
+                <td>557</td>
+            </tr>
+            <tr>
+                <th scope="row">Total length of contigs:</th>
+                <td>565.79 Mb</td>
+            </tr>
+            <tr>
+                <th scope="row">N50 contig length:</th>
+                <td>10.57 Mb</td>
+            </tr>
+            <tr>
+                <th scope="row">GC level:</th>
+                <td>36.80%</td>
+            </tr>
+            <tr>
+                <th scope="row">BUSCO completeness:</th>
+                <td>98.60%</td>
+            </tr>
+            </tbody>
+        </table>
+        <a href="/cauliflowerdb/jbrowse/" class="btn btn-success" target="_blank">JBrowse</a>
+        <a href="/cauliflowerdb/search/" class="btn btn-success">Gene Search</a>
+        <a href="/cauliflowerdb/downloadfile/Cauliflower_genome.fasta/" class="btn btn-success">Download</a>
+    </div>
+</div>
+</div>
+{% endblock %}

@@ -1,0 +1,196 @@
+{% extends './layout.html' %}
+
+{% block title %}
+    CauliflowerDB-Target
+{% endblock %}
+
+{% block content %}
+<!--    信息搜索区-->
+    <div class="row justify-content-center">
+    <!--        靶点检索区-->
+        <div class="col-lg-8">
+            <form action="" method="post" target="_blank" class="needs-validation" novalidate>
+                {% csrf_token %}
+                 <div class="row mb-3">
+                    <label for="geneid" class="col-sm-2 col-form-label">Gene ID</label>
+                    <div class="col-sm-10">
+                        <div class="input-group has-validation">
+                            <input type="text" class="form-control" id="geneid" name="geneid" placeholder="GeneID" required>
+                            <span class="input-group-text"><a href="javascript" style="text-decoration: none; font-size: 14px">BOB02G007110</a></span>
+                            <div class="invalid-feedback">Incorrect format</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="block" class="col-sm-2 col-form-label">Block</label>
+                    <div class="col-sm-10">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="block" name="block" placeholder="start-end" required>
+                            <span class="input-group-text" style="border-top-right-radius: 0.25rem; border-bottom-right-radius: 0.25rem"><a href="javascript" style="text-decoration: none; font-size: 14px">1-100000</a></span>
+                            <div class="invalid-feedback">Incorrect format</div>
+                        </div>
+                    </div>
+                </div>
+                <fieldset class="row mb-3">
+                    <div class="input-group">
+                        <label for="pam_select" class="input-group-text">PAM Type</label>
+                        <select class="form-select" aria-label="Default select example" id="pam_select">
+                            <option selected value="">Both NGG and CCN</option>
+                            <option value="GG">NGG (5'-NGG-3')</option>
+                            <option value="CC">CCN (5'-CCN-3')</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <fieldset class="row mb-3">
+                    <div class="input-group">
+                        <label for="number_select" class="input-group-text">Target Number</label>
+                        <select id="number_select" class="form-select" aria-label="Defualt select example">
+                            <option value="5">5</option>
+                            <option value="10">10</option>
+                            <option selected value="20">20</option>
+                            <option value="30">30</option>
+                            <option value="50">50</option>
+                        </select>
+                    </div>
+                </fieldset>
+
+                <button type="submit" class="btn btn-primary" id="sbbtn">Submit</button>
+                <a href="" class="btn btn-success disabled" id="dlbtn" style="display: inline-block">Download</a>
+                <div class="spinner-border spinner-border-sm text-success visually-hidden" role="status" id="spinner">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </form>
+            <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25" aria-valuemin="0"
+                 aria-valuemax="100" style="height: 3px; margin-top: 12px; margin-bottom: 12px">
+                <div class="progress-bar bg-warning" style="width: 100%"></div>
+            </div>
+        </div>
+    <!--        靶点检索区结束-->
+    </div>
+     {#    ajax结果展示区#}
+    <div class="row justify-content-center">
+        <div class="col-lg-12 table-responsive" id="results"></div>
+    </div>
+{% endblock %}
+
+{% block script %}
+    <script>
+        // 获取标签元素
+        const form = document.querySelector('form')
+        const geneid = document.querySelector('#geneid')
+        const block = document.querySelector('#block')
+        const pam_select = document.querySelector('#pam_select')
+        const number_select = document.querySelector('#number_select')
+        const sbbtn = document.querySelector('#sbbtn')
+        const dlbtn = document.querySelector('#dlbtn')
+        const resultdiv = document.querySelector('#results')
+        const spinner = document.querySelector('#spinner')
+
+        // 设置正则匹配模式
+        const geneidpattern = /^BOB0[1-9]G\d{6}$/
+        const blockpattern = /^\d+-\d+$/
+
+        // 定义验证字段的函数
+        function verifyField(field, pattern) {
+            const fieldfeedback = field.nextElementSibling.nextElementSibling
+            if (pattern.test(field.value)) {
+                fieldfeedback.style.display = 'none'
+                if (field.classList.contains('is-invalid')) field.classList.remove('is-invalid')
+                return true
+            } else {
+                fieldfeedback.style.display = 'block'
+                field.classList.add('is-invalid')
+                return false
+            }
+        }
+
+        // 验证表单字段，并进行ajax请求
+        (function () {
+            geneid.addEventListener('change', function () {verifyField(geneid, geneidpattern)}, false)
+            block.addEventListener('change', function () {verifyField(block, blockpattern)}, false)
+
+            form.addEventListener('submit', function (event) {
+                console.log(pam_select.options[pam_select.selectedIndex].value)
+                // 阻止表单自动提交
+                event.preventDefault()
+
+                // 只有字段验证通过才进行ajax请求
+                if (verifyField(geneid, geneidpattern)) {
+                    if (block.value) {
+                        if (!verifyField(block, blockpattern)) return
+                    }
+
+                    // 禁用提交按钮，进行ajax请求的时候不能再次提交
+                    sbbtn.disabled = true
+                    // 禁用下载按钮，这个按钮在刚打开网页的时候就是禁用的，但是一次请求成功后会成为可用的，所以再次请求的时候要再变为禁用
+                    if (!dlbtn.classList.contains('disabled')) dlbtn.classList.add('disabled')
+                    // 让转圈的显形
+                    if (spinner.classList.contains('visually-hidden')) spinner.classList.remove('visually-hidden')
+
+                    axios({
+                        url: '',
+                        method: 'post',
+                        data: {
+                            geneid: geneid.value,
+                            block: block.value,
+                            pam: pam_select.options[pam_select.selectedIndex].value,
+                            number: parseInt(number_select.options[number_select.selectedIndex].value)
+                        },
+                        headers: {
+                            "X-CSRFToken": document.querySelector('[name="csrfmiddlewaretoken"]').value,
+                            "content-type": "application/json"
+                        }
+                    }).then(result => {
+                        // 先清空结果展示区的内容
+                        resultdiv.innerHTML = ''
+
+                        // 恢复提交按钮
+                        sbbtn.disabled = false
+                        // 让转圈的隐藏
+                        spinner.classList.add('visually-hidden')
+
+                        // 如果有错误信息就弹窗展示，结束请求
+                        if (result.data.err) {
+                            return alert(result.data.err)
+                        }
+
+                        // 处理返回的结果
+                        const thead = '<thead><tr><th scope="col">Sequence</th><th scope="col">Chrom</th><th scope="col">Start</th><th scope="col">End</th><th scope="col">Specificity</th><th scope="col">Off-targets</th><th scope="col">Pam</th><th scope="col">Location</th></tr></thead>'
+                        let tbody = []
+                        for (let i = 0; i < result.data.targets.length; i++) {
+                            console.log('data received')
+                            tbody.push(`<tr><td>${result.data.targets[i]['seq']}</td><td>${result.data.targets[i]['chrom']}</td><td>${result.data.targets[i]['start']}</td><td>${result.data.targets[i]['end']}</td><td>${result.data.targets[i]['specificity']}</td><td>${result.data.targets[i]['offtargets']}</td><td>${result.data.targets[i]['pam']}</td><td>${result.data.targets[i]['ifcds']}</td></tr>`)
+                        }
+                        tbody = `<tbody>${tbody.join('')}</tbody>`
+                        console.log('tbody made')
+
+                        // 设置下载按钮
+                        dlbtn.href = result.data.link
+                        dlbtn.classList.remove('disabled')
+                        console.log('download button set')
+
+                        // 生成一个table展示结果
+                        const table = document.createElement('table')
+                        table.className = 'table table-striped text-center'
+                        table.innerHTML = thead + tbody
+                        resultdiv.appendChild(table)
+                        console.log('table displayed')
+                    })
+                }
+            })
+        })();
+
+        // 点击输入框后面的文字，可以自动把文字填到输入框里
+        (function () {
+            const labels = document.querySelectorAll('.input-group-text > a')
+            for (let i = 0; i < labels.length; i++) {
+                labels[i].addEventListener('click', function (event) {
+                    //  阻止a标签的自动跳转功能
+                    event.preventDefault()
+                    // 把a标签的innerText填写到输入框中
+                    this.parentElement.previousElementSibling.value = this.innerText
+                })
+            }
+        })();
+    </script>
+{% endblock %}

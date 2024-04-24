@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3e2567c2-bf08-40b4-9295-28f5b4c64d1c" name="server">
+        <fileTransfer accessType="SFTP" host="taascr.myddns.me" port="7251" sshConfigId="f617cd83-8f77-4214-a755-d90f6f685e2c" sshConfig="webserver">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="150000" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
