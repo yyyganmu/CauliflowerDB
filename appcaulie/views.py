@@ -325,7 +325,6 @@ class Target(View):
             return JsonResponse({'err': f'Gene {geneid} does not exist.'})
 
         # data query
-        # todo: 靶点数据中某些基因的起始和结束位置和注释信息中不匹配，所以要优化一下怎么根据区间进行查询
         if not block:
             # search targets whole-gene wide if no block is specified
             datalist = models.Targets.objects.filter(ofgene=geneid, ptype__contains=ptype).order_by('-specificity')[:number].values()
