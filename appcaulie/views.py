@@ -18,7 +18,9 @@ from appcaulie.utils.pagination import Pagination
 
 
 def downloadfile(request, filename):
-    fileio = open(os.path.join(settings.STATIC_ROOT, 'tmp', filename), 'rb')
+    filenames = ['Cauliflower_genome.fasta', 'allset_v1_new.gff']
+    directory = 'webdata' if filename in filenames else 'tmp'
+    fileio = open(os.path.join(settings.STATIC_ROOT, directory, filename), 'rb')
     response = FileResponse(fileio)
     response['Content-type'] = 'application/octet-stream'
     response['Content-Disposition'] = f'attachment;filename="{filename}"'
