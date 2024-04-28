@@ -36,7 +36,6 @@ def genome(request):
 
 
 def download(request):
-    # todo: adjust download links in 'download.html'
     return render(request, template_name='download.html')
 
 
