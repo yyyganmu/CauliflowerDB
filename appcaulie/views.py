@@ -246,7 +246,7 @@ class SearchById(View):
 
         # write the results to a file for downloading
         outputfile = f'zresults_featureseqs_{geneid}_{datetime.datetime.now().strftime("%Y%m%d")}.fasta'
-        with open(os.path.join(settings.STATIC_ROOT, 'tmp', outputfile), 'w') as fo:
+        with open(os.path.join(settings.BASE_DIR, 'tmp', outputfile), 'w') as fo:
             for k, v in seqsdic.items():
                 fo.write(k + '\n' + v + '\n')
 
@@ -280,7 +280,7 @@ class Batch(View):
 
         # open output file
         outputfile = f'zresults_batch_download_{datetime.datetime.now().strftime("%Y%m%d")}.fasta'
-        fo = open(os.path.join(settings.STATIC_ROOT, 'tmp', outputfile), 'w')
+        fo = open(os.path.join(settings.BASE_DIR, 'tmp', outputfile), 'w')
 
         errgenes = []  # a list to store the nonexistent gene IDs for response
         for gene in genes:
@@ -341,7 +341,7 @@ class Target(View):
 
         # write the results to a file for downloading
         outputfile = f'z{datetime.datetime.now().strftime("%Y%m%d")}_crispr_targets_of_{geneid}.csv'
-        with open(os.path.join(settings.STATIC_ROOT, 'tmp', outputfile), 'w') as fo:
+        with open(os.path.join(settings.BASE_DIR, 'tmp', outputfile), 'w') as fo:
             try:
                 fo.write(','.join(datalist[0].keys()) + '\n')
                 for line in datalist:
