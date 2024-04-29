@@ -19,8 +19,10 @@ from appcaulie.utils.pagination import Pagination
 
 def downloadfile(request, filename):
     filenames = ['Cauliflower_genome.fasta', 'allset_v1_new.gff']
-    directory = 'webdata' if filename in filenames else 'tmp'
-    fileio = open(os.path.join(settings.STATIC_ROOT, directory, filename), 'rb')
+    if filename not in filenames:
+        fileio = open(os.path.join(settings.BASE_DIR, 'tmp', filename), 'rb')
+    else:
+        fileio = open(os.path.join(settings.STATIC_ROOT, 'webdata', filename), 'rb')
     response = FileResponse(fileio)
     response['Content-type'] = 'application/octet-stream'
     response['Content-Disposition'] = f'attachment;filename="{filename}"'
@@ -96,7 +98,7 @@ class SnpSeek(View):
         biallelic = psdata.get('biallelic')  # value: '-m 2 -M 2 -v snps' or ''
 
         # verify samples' existence
-        with open(os.path.join(settings.STATIC_ROOT, 'webdata', 'zsamplelist820.txt'), 'r') as fi:
+        with open(os.path.join(settings.STATICFILES_DIRS[0], 'webdata', 'zsamplelist820.txt'), 'r') as fi:
             samplelist = [line.strip() for line in fi]  # 820 samples
         samples = ','.join([i for i in samples.split(',') if i in samplelist])
         if not samples:
@@ -113,7 +115,7 @@ class SnpSeek(View):
 
         # write the results to a file for downloading
         outputfile = f'zresults_snpseek_{datetime.datetime.now().strftime("%Y%m%d")}.csv'
-        with open(os.path.join(settings.STATIC_ROOT, 'tmp', outputfile), 'w') as fo:
+        with open(os.path.join(settings.BASE_DIR, 'tmp', outputfile), 'w') as fo:
             fo.write('CHROM,POS,REF,ALT,' + samples + '\n')
             for line in results:
                 fo.write(','.join(line) + '\n')
@@ -142,7 +144,7 @@ class ConsensusSeq(View):
         samples = psdata.get('samples')
 
         # verify samples' existence
-        with open(os.path.join(settings.STATIC_ROOT, 'webdata', 'zsamplelist820.txt'), 'r') as fi:
+        with open(os.path.join(settings.STATICFILES_DIRS[0], 'webdata', 'zsamplelist820.txt'), 'r') as fi:
             samplelist = [line.strip() for line in fi]  # 820 samples
         samples = [i for i in samples.split(',') if i in samplelist]
         if not samples:
@@ -166,7 +168,7 @@ class ConsensusSeq(View):
 
         # write the results to a file for downloading
         outputfile = f'zresults_consensusseq_{"_".join(samples)}_{datetime.datetime.now().strftime("%Y%m%d")}.fasta'
-        with open(os.path.join(settings.STATIC_ROOT, 'tmp', outputfile), 'w') as fo:
+        with open(os.path.join(settings.BASE_DIR, 'tmp', outputfile), 'w') as fo:
             for key, value in resdic.items():
                 fo.write(key + '\n' + value[0] + '\n')
 
